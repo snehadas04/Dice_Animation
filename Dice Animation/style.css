@@ -38,5 +38,14 @@ body{
     transform: translateZ(100px);
 }
 .second{
-    transform: translateZ(-100) rotateX(90deg);
+    transform: translatey(-100) rotateX(90deg);
+}
+.third{
+    transform: translateY(100px) rotateX(90deg);
+}
+.fourth{
+    transform: translatex(-100) rotateY(90deg);
+}
+.fifth{
+    transform: translateX(100px) rotateY(90deg);
 }
