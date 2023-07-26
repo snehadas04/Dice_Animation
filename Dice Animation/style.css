@@ -59,3 +59,20 @@ body{
     border-radius: 50%;
     background: #fff;
 }
+
+.second span{
+    background: #f0ea60;
+}
+.third span{
+    background: #ee6352;
+}
+.fourth span{
+    background: #4f7cac;
+}
+.fifth span{
+    background: #48bf84;
+}
+.sixth span{
+    background: #e5a532;
+}
+
