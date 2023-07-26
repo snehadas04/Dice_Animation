@@ -21,7 +21,7 @@ body{
     transform-style: preserve-3d;
     animation: rotate 15s infinite linear;
 }
-.side{
+#side{
     width: 200px;
     height: 200px;
     position: absolute;
@@ -29,4 +29,14 @@ body{
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #fff;
     border-radius: 5%;
+}
+
+.first{
+    transform: translateZ(-100px);
+}
+.sixth{
+    transform: translateZ(100px);
+}
+.second{
+    transform: translateZ(-100) rotateX(90deg);
 }
