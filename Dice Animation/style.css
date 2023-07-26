@@ -2,3 +2,9 @@ body, html{
     height: 100%;
     overflow: hidden;
 }
+
+body{
+    perspective: 500px;
+    perspective-origin: center center;
+    background: #1c0404;
+}
