@@ -21,7 +21,7 @@ body{
     transform-style: preserve-3d;
     animation: rotate 15s infinite linear;
 }
-#side{
+.side{
     width: 200px;
     height: 200px;
     position: absolute;
@@ -48,4 +48,14 @@ body{
 }
 .fifth{
     transform: translateX(100px) rotateY(90deg);
+}
+
+.side span{
+    position: absolute;
+    top: 37%;
+    left: 37%;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    background: #fff;
 }
